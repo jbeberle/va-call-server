@@ -28,6 +28,8 @@ public class VetCallServiceTests {
                 .claimPhase("Some phase")
                 .fullName("John A. Doe")
                 .screen("Screen")
+                .callReason("A Call Reason")
+                .callClaimDescription("A Call Description")
                 .build();
 //        vetCallService.addNewCall(vetCall);
     }

@@ -18,6 +18,8 @@ public class VetCallInfo {
     private String service;
     private String branch;
     private String screen;
+    private String callReason;
+    private String callClaimDescription;
     private String claimId;
     private String claimType;
     private String claimPhase;
