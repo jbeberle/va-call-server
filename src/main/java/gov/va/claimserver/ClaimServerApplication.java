@@ -1,4 +1,4 @@
-package va.gov.claimserver;
+package gov.va.claimserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -12,8 +12,8 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-@EnableJpaRepositories("va.gov.claimserver.repository")
-@EntityScan("va.gov.claimserver.model")
+@EnableJpaRepositories("gov.va.claimserver.repository")
+@EntityScan("gov.va.claimserver.model")
 public class ClaimServerApplication {
 
 	public static void main(String[] args) {

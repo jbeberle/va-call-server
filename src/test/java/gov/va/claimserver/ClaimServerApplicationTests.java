@@ -1,4 +1,4 @@
-package va.gov.claimserver;
+package gov.va.claimserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

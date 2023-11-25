@@ -1,4 +1,4 @@
-package va.gov.claimserver.service;
+package gov.va.claimserver.service;
 
 import gov.va.claimserver.model.VetCallInfo;
 import gov.va.claimserver.repository.VetCallRepository;
