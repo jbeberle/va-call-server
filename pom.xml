@@ -8,7 +8,7 @@
 		<version>3.1.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>va.gov</groupId>
+	<groupId>gov.va</groupId>
 	<artifactId>va-call-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>claim-server</name>
