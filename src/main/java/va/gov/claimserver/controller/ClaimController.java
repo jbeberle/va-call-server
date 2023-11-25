@@ -18,9 +18,7 @@ import java.util.Collection;
 @CrossOrigin(origins = "http://localhost:3000")
 public class ClaimController {
 
-//    @Autowired
     VetCallService vetCallService;
-
     VetCallRepository vetCallRepository;
 
     @Autowired
@@ -31,9 +29,7 @@ public class ClaimController {
 
     @PostMapping("/vetcall")
     public ResponseEntity<?> addCall(@RequestBody VetCallInfo vetCallInfo) {
-//        String contentType = "application/octet-stream";
         String contentType = "application/json";
-        //       String headerValue = "attachment; filename=\"" + resource.getFilename() + "\"";
         System.out.println("vetCallInfo=");
         System.out.println(vetCallInfo);
         vetCallService.addNewCall(vetCallInfo);

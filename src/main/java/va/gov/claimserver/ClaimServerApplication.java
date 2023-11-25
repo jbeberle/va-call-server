@@ -11,9 +11,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
-@SpringBootApplication (
-//		exclude = {DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class}
-)
+@SpringBootApplication
 @EnableJpaRepositories("va.gov.claimserver.repository")
 @EntityScan("va.gov.claimserver.model")
 public class ClaimServerApplication {
@@ -24,7 +22,6 @@ public class ClaimServerApplication {
 
 	@Bean
 	public WebMvcConfigurer corsConfigurer() {
-		System.out.println("In corsConfigurer");
 		return new WebMvcConfigurer() {
 
 			@Override
