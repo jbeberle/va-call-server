@@ -1,9 +1,10 @@
 package va.gov.claimserver.service;
 
+import gov.va.claimserver.model.VetCallInfo;
+import gov.va.claimserver.repository.VetCallRepository;
+import gov.va.claimserver.service.VetCallService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import va.gov.claimserver.model.VetCallInfo;
-import va.gov.claimserver.repository.VetCallRepository;
 
 import static org.mockito.Mockito.mock;
 

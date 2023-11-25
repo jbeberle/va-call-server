@@ -1,4 +1,4 @@
-package va.gov.claimserver.model;
+package gov.va.claimserver.model;
 
 import jakarta.persistence.*;
 import lombok.*;

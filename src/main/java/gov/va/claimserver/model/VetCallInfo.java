@@ -1,4 +1,4 @@
-package va.gov.claimserver.model;
+package gov.va.claimserver.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;

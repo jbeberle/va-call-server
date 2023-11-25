@@ -1,9 +1,8 @@
-package va.gov.claimserver.repository;
+package gov.va.claimserver.repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
+import gov.va.claimserver.model.VetCallEntity;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import va.gov.claimserver.model.VetCallEntity;
 
 @Repository
 public interface VetCallRepository extends CrudRepository<VetCallEntity, Long> {

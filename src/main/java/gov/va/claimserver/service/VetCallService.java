@@ -1,10 +1,9 @@
-package va.gov.claimserver.service;
+package gov.va.claimserver.service;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import gov.va.claimserver.model.VetCallEntity;
+import gov.va.claimserver.model.VetCallInfo;
+import gov.va.claimserver.repository.VetCallRepository;
 import org.springframework.stereotype.Service;
-import va.gov.claimserver.model.VetCallEntity;
-import va.gov.claimserver.model.VetCallInfo;
-import va.gov.claimserver.repository.VetCallRepository;
 
 import java.util.List;
 import java.util.stream.Collectors;

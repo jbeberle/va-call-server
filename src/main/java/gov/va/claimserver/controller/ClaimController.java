@@ -1,13 +1,13 @@
-package va.gov.claimserver.controller;
+package gov.va.claimserver.controller;
 
+import gov.va.claimserver.model.VetCallInfo;
+import gov.va.claimserver.repository.VetCallRepository;
+import gov.va.claimserver.service.VetCallService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import va.gov.claimserver.model.VetCallInfo;
-import va.gov.claimserver.repository.VetCallRepository;
-import va.gov.claimserver.service.VetCallService;
 
 import java.util.ArrayList;
 import java.util.Collection;
