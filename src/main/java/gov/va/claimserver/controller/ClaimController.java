@@ -15,7 +15,7 @@ import java.util.Collection;
 @RestController
 @RequestMapping("/")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:5001")
 public class ClaimController {
 
     VetCallService vetCallService;

@@ -28,7 +28,7 @@ public class ClaimServerApplication {
 			public void addCorsMappings(CorsRegistry registry) {
 				registry
 						.addMapping("/**")
-						.allowedOrigins("http://localhost:3000")
+						.allowedOrigins("http://localhost:5001")
 						.allowCredentials(true);
 			}
 		};
